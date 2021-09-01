@@ -1,3 +1,3 @@
-# luislavaire.github.io
+### Luis Lavaire.
 
-My website. My thoughts about life and crafts (software among them).
+> My thoughts about life and crafts (software among them).
