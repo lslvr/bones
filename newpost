@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 
 test $# = 1 || { echo "Usage: newpost <title>"; exit 1; }
@@ -6,9 +6,9 @@ test $# = 1 || { echo "Usage: newpost <title>"; exit 1; }
 mkdir -p posts
 
 > "posts/$1.html" \
-printf '%s\n' "<style> body { background: #BFB6BD; color: #0A1016; } </style>" \
-              "<pre>" "" ""       \
-              "            # $1." \
+printf '%s\n' "<style> body { line-height: 1.6; background: #dbdbdb; color: #222; } </style>" \
+              "<pre>" "" ""   \
+              "        # $1." \
               "" "    "
 
 "$EDITOR" "posts/$1.html"
