@@ -1,4 +1,4 @@
-> The most simple blog you'll find out there.
+> _The most simple blog you'll find out there._
 
 Inspired by http://motherfuckingwebsite.com/ and http://bettermotherfuckingwebsite.com/.
 
