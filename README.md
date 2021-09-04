@@ -2,7 +2,7 @@
 
 > _The most simple blog you'll find out there._
 
-Inspired by http://motherfuckingwebsite.com/.
+Inspired by http://motherfuckingwebsite.com/. Perhaps even more austere.
 
 
 ## Installation.
