@@ -6,10 +6,10 @@ tmp=$(mktemp); trap 'mv $tmp index.html' EXIT
 {
         # First, discard the old index.
 
-        grep -v '<a href=' index.html
+        egrep -v '^\s*<a href=' index.html
 
 
-        # Next, regenerate the index.
+        # Rebuild the index.
         # Remove the '.html' extension from links.
 
         ls -1 -t --time=birth posts/ \
