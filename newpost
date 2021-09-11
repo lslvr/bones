@@ -11,4 +11,4 @@ printf '%s\n' "<style> body { line-height: 1.6; background: #dbdbdb; color: #222
               "        # $1." \
               "" "    "
 
-"$EDITOR" "posts/$1.html"
+"${EDITOR:-:}" "posts/$1.html"

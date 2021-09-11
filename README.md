@@ -12,9 +12,7 @@ ln -sfr .reindex .git/hooks/pre-commit
 ```
 
 `.reindex` rebuilds the blogs index each time a commit is made.
-Blogs will be sorted from newest to oldest.
-
-You can then edit `index.html`, adding your own information.
+You can then edit `index.html`, your front-page.
 
 ## Usage.
 
