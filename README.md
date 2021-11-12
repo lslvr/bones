@@ -1,6 +1,6 @@
 # Bones.
 
-> _The simplest blog you'll find out there. (Inspired by http://motherfuckingwebsite.com/)._
+> _The simplest blog builder you'll find out there. (Inspired by https://bestmotherfucking.website/)._
 
 
 ## Installation.
